@@ -1,0 +1,27 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    notes                                              :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sng <sng@student.42kl.edu.my>              +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/10/01 15:11:12 by sng               #+#    #+#              #
+#    Updated: 2024/10/01 16:07:02 by sng              ###   ########.kl        #
+#                                                                              #
+# **************************************************************************** #
+
+1) A pointer is a variable.
+
+2) This variable stores the memory address of another variable (as its value).
+
+3) A pointer points to a data type of the same type.
+
+4) The type of the pointer (i.e. int pointer, char pointer, float pointer, double pointer, pointer pointer etc.) has to match the type of the variable you're working with (i.e. int pointer must point to an int variable, so on and so forth).
+
+5) A pointer is created with the '*' operator.
+
+6) The memory address of the variable you are working with is assigned to the pointer.
+
+7) You use the '&' operator to get the memory address of a variable. You can use then store the memory address of that same variable in a pointer of the same type as that variable. (for instance, if the int variable's name is demo, then the format would be int *pointer_variable_name = &demo (provided of course that you've assigned a value to the int variable demo)) <- This process is known as referencing. As in you're taking the address of an existing variable (using the & operator) to set a pointer variable. 
+
+8) Deferencing -> This is the process of using the '*' operator to retrieve the value that is stored in the memory address that the pointer variable stores/ points to. Again, the value stored at the address that the pointer variable points to has to be the same type as the variable you want to put that value in.
